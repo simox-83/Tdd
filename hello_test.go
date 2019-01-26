@@ -7,11 +7,6 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-type Rectangle struct {
-	width  float64
-	height float64
-}
-
 // TestHello to test Hello
 
 func TestHello(t *testing.T) {

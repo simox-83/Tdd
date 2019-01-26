@@ -67,6 +67,11 @@ func SumSlice(s []int) int {
 	return sum
 }
 
+type Rectangle struct {
+	width  float64
+	height float64
+}
+
 //Perimeter calculates rectangle's perimeter
 func Perimeter(r Rectangle) float64 {
 	return (r.width + r.height) * 2
